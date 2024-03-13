@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    width:100%;
+    height:100vh;
+    background: black;
+}
+
+
+ 
+  .bike-img{
+    width:200px;
+    height:500px;
+    position: absolute;
+    top:50px; 
+    
+  }
+
+
+
+  .content{
+    position: absolute;
+    left:55%;
+    top:5%;
+    
+  }
+
+  .content h3{
+    color:white;
+    font-size: 40px;
+    font-family:cursive(serif);
+    font-style: italic;
+  }
+
+  .content h4{
+    color:white;
+    font-size: 20px;
+    font-family:cursive(serif);
+    font-style: italic;
+    text-align: center;
+
+  }
+
+  .content h3:hover{
+    color:silver;
+    transition: 1s ease;
+
+  }
+  .content h4:hover{
+    color:silver;
+    transition: 0.5s ease;
+
+  }
+
+  .main-img{
+    width:800px;
+    height:500px;
+    position: absolute;
+    left:600px;
+    top:150px;
+    box-shadow: inset black 5px 5px 0px;
+} 
+
+button{
+  width:60px;
+  height:25px;
+  position: absolute;
+  left:90px;
+  border-radius: 10px;
+  background-color:white;
+  font-weight: 700;
+}
+
